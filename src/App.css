@@ -1,0 +1,75 @@
+.landing {
+}
+
+.header {
+  height: 400px;
+  background-image: linear-gradient(to right, indigo, darkblue);
+}
+
+.contentdiv {
+  position: absolute;
+  width: 30%;
+  background-color: white;
+  top: 150px;
+  left: 520px;
+  border-radius: 40px;
+  box-shadow: -3px 180px 20px 20px #efefef;
+  display: flex;
+  flex-direction: column;
+}
+
+.subdiv {
+  background-color: #f0f0f0;
+  height: 100px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.listdiv {
+  max-height: 350px;
+  overflow-y: auto;
+  margin: 10px;
+  border-radius: 40px;
+}
+
+.dataDiv {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  margin-left: 25px;
+  font-size: 20px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+
+.imglanding {
+  width: 45px;
+  height: 40px;
+  border-radius: 60px;
+}
+
+.landingul {
+  list-style-type: none;
+  padding: 0;
+}
+.landingdiv {
+  margin-left: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+svg {
+  height: 500px;
+  width: 100%;
+}
+.account {
+  font-family: "arial";
+  font-size: 27px;
+  padding-left: 110px;
+  padding-top: 18px;
+}
+
+.inputtext
+{
+  margin-left: 400px;
+  width: 300px;
+  padding-left: 150px;
+}
